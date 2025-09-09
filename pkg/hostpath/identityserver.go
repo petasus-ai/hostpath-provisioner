@@ -24,6 +24,7 @@ import (
 	"k8s.io/klog/v2"
 )
 type hostPathIdentity struct {
+	csi.UnimplementedIdentityServer
 	cfg *Config
 }
 

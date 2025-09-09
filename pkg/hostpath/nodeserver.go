@@ -35,6 +35,7 @@ const (
 )
 
 type hostPathNode struct {
+	csi.UnimplementedNodeServer
 	cfg *Config
 }
 

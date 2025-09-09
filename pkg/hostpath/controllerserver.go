@@ -35,6 +35,7 @@ const (
 )
 
 type hostPathController struct {
+	csi.UnimplementedControllerServer
 	cfg *Config
 }
 
